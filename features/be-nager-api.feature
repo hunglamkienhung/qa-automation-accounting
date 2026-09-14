@@ -319,6 +319,487 @@ Feature: Nager.Date's public holiday API, read-only, and the settlement date bui
     Examples:
       | date | expected |
       | 2024-11-08 | 2024-11-11 |
+    @case:812
+    Examples:
+      | date | expected |
+      | 2024-01-01 | 2024-01-02 |
+    @case:813
+    Examples:
+      | date | expected |
+      | 2024-01-02 | 2024-01-03 |
+    @case:814
+    Examples:
+      | date | expected |
+      | 2024-01-03 | 2024-01-04 |
+    @case:815
+    Examples:
+      | date | expected |
+      | 2024-01-04 | 2024-01-05 |
+    @case:816
+    Examples:
+      | date | expected |
+      | 2024-01-05 | 2024-01-08 |
+    @case:817
+    Examples:
+      | date | expected |
+      | 2024-01-06 | 2024-01-08 |
+    @case:818
+    Examples:
+      | date | expected |
+      | 2024-01-07 | 2024-01-08 |
+    @case:819
+    Examples:
+      | date | expected |
+      | 2024-01-08 | 2024-01-09 |
+    @case:820
+    Examples:
+      | date | expected |
+      | 2024-01-09 | 2024-01-10 |
+    @case:821
+    Examples:
+      | date | expected |
+      | 2024-01-10 | 2024-01-11 |
+    @case:822
+    Examples:
+      | date | expected |
+      | 2024-01-11 | 2024-01-12 |
+    @case:823
+    Examples:
+      | date | expected |
+      | 2024-01-12 | 2024-01-15 |
+    @case:824
+    Examples:
+      | date | expected |
+      | 2024-01-13 | 2024-01-15 |
+    @case:825
+    Examples:
+      | date | expected |
+      | 2024-01-14 | 2024-01-15 |
+    @case:826
+    Examples:
+      | date | expected |
+      | 2024-01-15 | 2024-01-16 |
+    @case:827
+    Examples:
+      | date | expected |
+      | 2024-01-16 | 2024-01-17 |
+    @case:828
+    Examples:
+      | date | expected |
+      | 2024-01-17 | 2024-01-18 |
+    @case:829
+    Examples:
+      | date | expected |
+      | 2024-01-18 | 2024-01-19 |
+    @case:830
+    Examples:
+      | date | expected |
+      | 2024-01-19 | 2024-01-22 |
+    @case:831
+    Examples:
+      | date | expected |
+      | 2024-01-20 | 2024-01-22 |
+    @case:832
+    Examples:
+      | date | expected |
+      | 2024-01-21 | 2024-01-22 |
+    @case:833
+    Examples:
+      | date | expected |
+      | 2024-01-22 | 2024-01-23 |
+    @case:834
+    Examples:
+      | date | expected |
+      | 2024-01-23 | 2024-01-24 |
+    @case:835
+    Examples:
+      | date | expected |
+      | 2024-01-24 | 2024-01-25 |
+    @case:836
+    Examples:
+      | date | expected |
+      | 2024-01-25 | 2024-01-26 |
+    @case:837
+    Examples:
+      | date | expected |
+      | 2024-01-26 | 2024-01-29 |
+    @case:838
+    Examples:
+      | date | expected |
+      | 2024-01-27 | 2024-01-29 |
+    @case:839
+    Examples:
+      | date | expected |
+      | 2024-01-28 | 2024-01-29 |
+    @case:840
+    Examples:
+      | date | expected |
+      | 2024-01-29 | 2024-01-30 |
+    @case:841
+    Examples:
+      | date | expected |
+      | 2024-01-30 | 2024-01-31 |
+    @case:842
+    Examples:
+      | date | expected |
+      | 2024-01-31 | 2024-02-01 |
+    @case:843
+    Examples:
+      | date | expected |
+      | 2024-02-01 | 2024-02-02 |
+    @case:844
+    Examples:
+      | date | expected |
+      | 2024-02-02 | 2024-02-05 |
+    @case:845
+    Examples:
+      | date | expected |
+      | 2024-02-03 | 2024-02-05 |
+    @case:846
+    Examples:
+      | date | expected |
+      | 2024-02-04 | 2024-02-05 |
+    @case:847
+    Examples:
+      | date | expected |
+      | 2024-02-05 | 2024-02-06 |
+    @case:848
+    Examples:
+      | date | expected |
+      | 2024-02-06 | 2024-02-07 |
+    @case:849
+    Examples:
+      | date | expected |
+      | 2024-02-07 | 2024-02-08 |
+    @case:850
+    Examples:
+      | date | expected |
+      | 2024-02-08 | 2024-02-09 |
+    @case:851
+    Examples:
+      | date | expected |
+      | 2024-02-09 | 2024-02-12 |
+    @case:852
+    Examples:
+      | date | expected |
+      | 2024-02-10 | 2024-02-12 |
+    @case:853
+    Examples:
+      | date | expected |
+      | 2024-02-11 | 2024-02-12 |
+    @case:854
+    Examples:
+      | date | expected |
+      | 2024-02-12 | 2024-02-13 |
+    @case:855
+    Examples:
+      | date | expected |
+      | 2024-02-13 | 2024-02-14 |
+    @case:856
+    Examples:
+      | date | expected |
+      | 2024-02-14 | 2024-02-15 |
+    @case:857
+    Examples:
+      | date | expected |
+      | 2024-02-15 | 2024-02-16 |
+    @case:858
+    Examples:
+      | date | expected |
+      | 2024-02-16 | 2024-02-19 |
+    @case:859
+    Examples:
+      | date | expected |
+      | 2024-02-17 | 2024-02-19 |
+    @case:860
+    Examples:
+      | date | expected |
+      | 2024-02-18 | 2024-02-19 |
+    @case:861
+    Examples:
+      | date | expected |
+      | 2024-02-19 | 2024-02-20 |
+    @case:862
+    Examples:
+      | date | expected |
+      | 2024-02-20 | 2024-02-21 |
+    @case:863
+    Examples:
+      | date | expected |
+      | 2024-02-21 | 2024-02-22 |
+    @case:864
+    Examples:
+      | date | expected |
+      | 2024-02-22 | 2024-02-23 |
+    @case:865
+    Examples:
+      | date | expected |
+      | 2024-02-23 | 2024-02-26 |
+    @case:866
+    Examples:
+      | date | expected |
+      | 2024-02-24 | 2024-02-26 |
+    @case:867
+    Examples:
+      | date | expected |
+      | 2024-02-25 | 2024-02-26 |
+    @case:868
+    Examples:
+      | date | expected |
+      | 2024-02-26 | 2024-02-27 |
+    @case:869
+    Examples:
+      | date | expected |
+      | 2024-02-27 | 2024-02-28 |
+    @case:870
+    Examples:
+      | date | expected |
+      | 2024-02-28 | 2024-02-29 |
+    @case:871
+    Examples:
+      | date | expected |
+      | 2024-02-29 | 2024-03-01 |
+    @case:872
+    Examples:
+      | date | expected |
+      | 2024-03-01 | 2024-03-04 |
+    @case:873
+    Examples:
+      | date | expected |
+      | 2024-03-02 | 2024-03-04 |
+    @case:874
+    Examples:
+      | date | expected |
+      | 2024-03-03 | 2024-03-04 |
+    @case:875
+    Examples:
+      | date | expected |
+      | 2024-03-04 | 2024-03-05 |
+    @case:876
+    Examples:
+      | date | expected |
+      | 2024-03-05 | 2024-03-06 |
+    @case:877
+    Examples:
+      | date | expected |
+      | 2024-03-06 | 2024-03-07 |
+    @case:878
+    Examples:
+      | date | expected |
+      | 2024-03-07 | 2024-03-08 |
+    @case:879
+    Examples:
+      | date | expected |
+      | 2024-03-08 | 2024-03-11 |
+    @case:880
+    Examples:
+      | date | expected |
+      | 2024-03-09 | 2024-03-11 |
+    @case:881
+    Examples:
+      | date | expected |
+      | 2024-03-10 | 2024-03-11 |
+    @case:882
+    Examples:
+      | date | expected |
+      | 2024-03-11 | 2024-03-12 |
+    @case:883
+    Examples:
+      | date | expected |
+      | 2024-03-12 | 2024-03-13 |
+    @case:884
+    Examples:
+      | date | expected |
+      | 2024-03-13 | 2024-03-14 |
+    @case:885
+    Examples:
+      | date | expected |
+      | 2024-03-14 | 2024-03-15 |
+    @case:886
+    Examples:
+      | date | expected |
+      | 2024-03-15 | 2024-03-18 |
+    @case:887
+    Examples:
+      | date | expected |
+      | 2024-03-16 | 2024-03-18 |
+    @case:888
+    Examples:
+      | date | expected |
+      | 2024-03-17 | 2024-03-18 |
+    @case:889
+    Examples:
+      | date | expected |
+      | 2024-03-18 | 2024-03-19 |
+    @case:890
+    Examples:
+      | date | expected |
+      | 2024-03-19 | 2024-03-20 |
+    @case:891
+    Examples:
+      | date | expected |
+      | 2024-03-20 | 2024-03-21 |
+    @case:892
+    Examples:
+      | date | expected |
+      | 2024-03-21 | 2024-03-22 |
+    @case:893
+    Examples:
+      | date | expected |
+      | 2024-03-22 | 2024-03-25 |
+    @case:894
+    Examples:
+      | date | expected |
+      | 2024-03-23 | 2024-03-25 |
+    @case:895
+    Examples:
+      | date | expected |
+      | 2024-03-24 | 2024-03-25 |
+    @case:896
+    Examples:
+      | date | expected |
+      | 2024-03-25 | 2024-03-26 |
+    @case:897
+    Examples:
+      | date | expected |
+      | 2024-03-26 | 2024-03-27 |
+    @case:898
+    Examples:
+      | date | expected |
+      | 2024-03-27 | 2024-03-28 |
+    @case:899
+    Examples:
+      | date | expected |
+      | 2024-03-28 | 2024-03-29 |
+    @case:900
+    Examples:
+      | date | expected |
+      | 2024-03-29 | 2024-04-01 |
+    @case:901
+    Examples:
+      | date | expected |
+      | 2024-03-30 | 2024-04-01 |
+    @case:902
+    Examples:
+      | date | expected |
+      | 2024-03-31 | 2024-04-01 |
+    @case:903
+    Examples:
+      | date | expected |
+      | 2024-04-01 | 2024-04-02 |
+    @case:904
+    Examples:
+      | date | expected |
+      | 2024-04-02 | 2024-04-03 |
+    @case:905
+    Examples:
+      | date | expected |
+      | 2024-04-03 | 2024-04-04 |
+    @case:906
+    Examples:
+      | date | expected |
+      | 2024-04-04 | 2024-04-05 |
+    @case:907
+    Examples:
+      | date | expected |
+      | 2024-04-05 | 2024-04-08 |
+    @case:908
+    Examples:
+      | date | expected |
+      | 2024-04-06 | 2024-04-08 |
+    @case:909
+    Examples:
+      | date | expected |
+      | 2024-04-07 | 2024-04-08 |
+    @case:910
+    Examples:
+      | date | expected |
+      | 2024-04-08 | 2024-04-09 |
+    @case:911
+    Examples:
+      | date | expected |
+      | 2024-04-09 | 2024-04-10 |
+    @case:912
+    Examples:
+      | date | expected |
+      | 2024-04-10 | 2024-04-11 |
+    @case:913
+    Examples:
+      | date | expected |
+      | 2024-04-11 | 2024-04-12 |
+    @case:914
+    Examples:
+      | date | expected |
+      | 2024-04-12 | 2024-04-15 |
+    @case:915
+    Examples:
+      | date | expected |
+      | 2024-04-13 | 2024-04-15 |
+    @case:916
+    Examples:
+      | date | expected |
+      | 2024-04-14 | 2024-04-15 |
+    @case:917
+    Examples:
+      | date | expected |
+      | 2024-04-15 | 2024-04-16 |
+    @case:918
+    Examples:
+      | date | expected |
+      | 2024-04-16 | 2024-04-17 |
+    @case:919
+    Examples:
+      | date | expected |
+      | 2024-04-17 | 2024-04-18 |
+    @case:920
+    Examples:
+      | date | expected |
+      | 2024-04-18 | 2024-04-19 |
+    @case:921
+    Examples:
+      | date | expected |
+      | 2024-04-19 | 2024-04-22 |
+    @case:922
+    Examples:
+      | date | expected |
+      | 2024-04-20 | 2024-04-22 |
+    @case:923
+    Examples:
+      | date | expected |
+      | 2024-04-21 | 2024-04-22 |
+    @case:924
+    Examples:
+      | date | expected |
+      | 2024-04-22 | 2024-04-23 |
+    @case:925
+    Examples:
+      | date | expected |
+      | 2024-04-23 | 2024-04-24 |
+    @case:926
+    Examples:
+      | date | expected |
+      | 2024-04-24 | 2024-04-25 |
+    @case:927
+    Examples:
+      | date | expected |
+      | 2024-04-25 | 2024-04-26 |
+    @case:928
+    Examples:
+      | date | expected |
+      | 2024-04-26 | 2024-04-29 |
+    @case:929
+    Examples:
+      | date | expected |
+      | 2024-04-27 | 2024-04-29 |
+    @case:930
+    Examples:
+      | date | expected |
+      | 2024-04-28 | 2024-04-29 |
+    @case:931
+    Examples:
+      | date | expected |
+      | 2024-04-29 | 2024-04-30 |
+
 
   Scenario Outline: More settlement: after <date> in the US is <expected>
     When the settlement date after <date> in US is computed
@@ -381,254 +862,3 @@ Feature: Nager.Date's public holiday API, read-only, and the settlement date bui
     Examples:
       | date | expected |
       | 2024-11-11 | 2024-11-12 |
-
-  Scenario Outline: Bulk: the business day after <date> with no holidays is <expected>
-    When the business day after <date> is computed with no holidays
-    Then the business day is <expected>
-
-    @case:941
-    Examples:
-      | date | expected |
-      | 2024-01-02 | 2024-01-03 |
-    @case:942
-    Examples:
-      | date | expected |
-      | 2024-01-10 | 2024-01-11 |
-    @case:943
-    Examples:
-      | date | expected |
-      | 2024-01-18 | 2024-01-19 |
-    @case:944
-    Examples:
-      | date | expected |
-      | 2024-01-22 | 2024-01-23 |
-    @case:945
-    Examples:
-      | date | expected |
-      | 2024-01-26 | 2024-01-29 |
-    @case:946
-    Examples:
-      | date | expected |
-      | 2024-01-30 | 2024-01-31 |
-    @case:947
-    Examples:
-      | date | expected |
-      | 2024-02-07 | 2024-02-08 |
-    @case:948
-    Examples:
-      | date | expected |
-      | 2024-02-15 | 2024-02-16 |
-    @case:949
-    Examples:
-      | date | expected |
-      | 2024-02-19 | 2024-02-20 |
-    @case:950
-    Examples:
-      | date | expected |
-      | 2024-02-23 | 2024-02-26 |
-    @case:951
-    Examples:
-      | date | expected |
-      | 2024-02-27 | 2024-02-28 |
-    @case:952
-    Examples:
-      | date | expected |
-      | 2024-03-06 | 2024-03-07 |
-    @case:953
-    Examples:
-      | date | expected |
-      | 2024-03-14 | 2024-03-15 |
-    @case:954
-    Examples:
-      | date | expected |
-      | 2024-03-18 | 2024-03-19 |
-    @case:955
-    Examples:
-      | date | expected |
-      | 2024-03-22 | 2024-03-25 |
-    @case:956
-    Examples:
-      | date | expected |
-      | 2024-03-26 | 2024-03-27 |
-    @case:957
-    Examples:
-      | date | expected |
-      | 2024-04-03 | 2024-04-04 |
-    @case:958
-    Examples:
-      | date | expected |
-      | 2024-04-11 | 2024-04-12 |
-    @case:959
-    Examples:
-      | date | expected |
-      | 2024-04-15 | 2024-04-16 |
-    @case:960
-    Examples:
-      | date | expected |
-      | 2024-04-19 | 2024-04-22 |
-    @case:961
-    Examples:
-      | date | expected |
-      | 2024-04-23 | 2024-04-24 |
-    @case:962
-    Examples:
-      | date | expected |
-      | 2024-05-01 | 2024-05-02 |
-    @case:963
-    Examples:
-      | date | expected |
-      | 2024-05-09 | 2024-05-10 |
-    @case:964
-    Examples:
-      | date | expected |
-      | 2024-05-13 | 2024-05-14 |
-    @case:965
-    Examples:
-      | date | expected |
-      | 2024-05-17 | 2024-05-20 |
-    @case:966
-    Examples:
-      | date | expected |
-      | 2024-05-21 | 2024-05-22 |
-    @case:967
-    Examples:
-      | date | expected |
-      | 2024-05-29 | 2024-05-30 |
-    @case:968
-    Examples:
-      | date | expected |
-      | 2024-06-06 | 2024-06-07 |
-    @case:969
-    Examples:
-      | date | expected |
-      | 2024-06-10 | 2024-06-11 |
-    @case:970
-    Examples:
-      | date | expected |
-      | 2024-06-14 | 2024-06-17 |
-    @case:971
-    Examples:
-      | date | expected |
-      | 2024-06-18 | 2024-06-19 |
-    @case:972
-    Examples:
-      | date | expected |
-      | 2024-06-26 | 2024-06-27 |
-    @case:973
-    Examples:
-      | date | expected |
-      | 2024-07-04 | 2024-07-05 |
-    @case:974
-    Examples:
-      | date | expected |
-      | 2024-07-08 | 2024-07-09 |
-    @case:975
-    Examples:
-      | date | expected |
-      | 2024-07-12 | 2024-07-15 |
-    @case:976
-    Examples:
-      | date | expected |
-      | 2024-07-16 | 2024-07-17 |
-    @case:977
-    Examples:
-      | date | expected |
-      | 2024-07-24 | 2024-07-25 |
-    @case:978
-    Examples:
-      | date | expected |
-      | 2024-08-01 | 2024-08-02 |
-    @case:979
-    Examples:
-      | date | expected |
-      | 2024-08-05 | 2024-08-06 |
-    @case:980
-    Examples:
-      | date | expected |
-      | 2024-08-09 | 2024-08-12 |
-
-  Scenario Outline: Bulk settlement: after <date> in the US is <expected>
-    When the settlement date after <date> in US is computed
-    Then the settlement date is <expected>
-    And the settlement date is a business day
-
-    @case:981
-    Examples:
-      | date | expected |
-      | 2024-01-04 | 2024-01-05 |
-    @case:982
-    Examples:
-      | date | expected |
-      | 2024-01-21 | 2024-01-22 |
-    @case:983
-    Examples:
-      | date | expected |
-      | 2024-02-07 | 2024-02-08 |
-    @case:984
-    Examples:
-      | date | expected |
-      | 2024-02-24 | 2024-02-26 |
-    @case:985
-    Examples:
-      | date | expected |
-      | 2024-03-12 | 2024-03-13 |
-    @case:986
-    Examples:
-      | date | expected |
-      | 2024-03-29 | 2024-04-01 |
-    @case:987
-    Examples:
-      | date | expected |
-      | 2024-04-15 | 2024-04-16 |
-    @case:988
-    Examples:
-      | date | expected |
-      | 2024-05-02 | 2024-05-03 |
-    @case:989
-    Examples:
-      | date | expected |
-      | 2024-05-19 | 2024-05-20 |
-    @case:990
-    Examples:
-      | date | expected |
-      | 2024-06-05 | 2024-06-06 |
-    @case:991
-    Examples:
-      | date | expected |
-      | 2024-06-22 | 2024-06-24 |
-    @case:992
-    Examples:
-      | date | expected |
-      | 2024-07-09 | 2024-07-10 |
-    @case:993
-    Examples:
-      | date | expected |
-      | 2024-07-26 | 2024-07-29 |
-    @case:994
-    Examples:
-      | date | expected |
-      | 2024-08-12 | 2024-08-13 |
-    @case:995
-    Examples:
-      | date | expected |
-      | 2024-08-29 | 2024-08-30 |
-    @case:996
-    Examples:
-      | date | expected |
-      | 2024-09-15 | 2024-09-16 |
-    @case:997
-    Examples:
-      | date | expected |
-      | 2024-10-02 | 2024-10-03 |
-    @case:998
-    Examples:
-      | date | expected |
-      | 2024-10-19 | 2024-10-21 |
-    @case:999
-    Examples:
-      | date | expected |
-      | 2024-11-05 | 2024-11-06 |
-    @case:1000
-    Examples:
-      | date | expected |
-      | 2024-11-22 | 2024-11-25 |

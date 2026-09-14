@@ -471,371 +471,404 @@ Feature: The mini-books store, read directly
     Examples:
       | dr | cr | amount |
       | 4 | 9 | 123456 |
+    @case:512
+    Examples:
+      | dr | cr | amount |
+      | 1 | 2 | 100 |
+    @case:513
+    Examples:
+      | dr | cr | amount |
+      | 1 | 3 | 113 |
+    @case:514
+    Examples:
+      | dr | cr | amount |
+      | 1 | 4 | 126 |
+    @case:515
+    Examples:
+      | dr | cr | amount |
+      | 1 | 5 | 139 |
+    @case:516
+    Examples:
+      | dr | cr | amount |
+      | 1 | 6 | 152 |
+    @case:517
+    Examples:
+      | dr | cr | amount |
+      | 1 | 7 | 165 |
+    @case:518
+    Examples:
+      | dr | cr | amount |
+      | 1 | 8 | 178 |
+    @case:519
+    Examples:
+      | dr | cr | amount |
+      | 1 | 9 | 191 |
+    @case:520
+    Examples:
+      | dr | cr | amount |
+      | 1 | 10 | 204 |
+    @case:521
+    Examples:
+      | dr | cr | amount |
+      | 1 | 11 | 217 |
+    @case:522
+    Examples:
+      | dr | cr | amount |
+      | 1 | 12 | 230 |
+    @case:523
+    Examples:
+      | dr | cr | amount |
+      | 1 | 13 | 243 |
+    @case:524
+    Examples:
+      | dr | cr | amount |
+      | 1 | 14 | 256 |
+    @case:525
+    Examples:
+      | dr | cr | amount |
+      | 2 | 1 | 269 |
+    @case:526
+    Examples:
+      | dr | cr | amount |
+      | 2 | 3 | 282 |
+    @case:527
+    Examples:
+      | dr | cr | amount |
+      | 2 | 4 | 295 |
+    @case:528
+    Examples:
+      | dr | cr | amount |
+      | 2 | 5 | 308 |
+    @case:529
+    Examples:
+      | dr | cr | amount |
+      | 2 | 6 | 321 |
+    @case:530
+    Examples:
+      | dr | cr | amount |
+      | 2 | 7 | 334 |
+    @case:531
+    Examples:
+      | dr | cr | amount |
+      | 2 | 8 | 347 |
+    @case:532
+    Examples:
+      | dr | cr | amount |
+      | 2 | 9 | 360 |
+    @case:533
+    Examples:
+      | dr | cr | amount |
+      | 2 | 10 | 373 |
+    @case:534
+    Examples:
+      | dr | cr | amount |
+      | 2 | 11 | 386 |
+    @case:535
+    Examples:
+      | dr | cr | amount |
+      | 2 | 12 | 399 |
+    @case:536
+    Examples:
+      | dr | cr | amount |
+      | 2 | 13 | 412 |
+    @case:537
+    Examples:
+      | dr | cr | amount |
+      | 2 | 14 | 425 |
+    @case:538
+    Examples:
+      | dr | cr | amount |
+      | 3 | 1 | 438 |
+    @case:539
+    Examples:
+      | dr | cr | amount |
+      | 3 | 2 | 451 |
+    @case:540
+    Examples:
+      | dr | cr | amount |
+      | 3 | 4 | 464 |
+    @case:541
+    Examples:
+      | dr | cr | amount |
+      | 3 | 5 | 477 |
+    @case:542
+    Examples:
+      | dr | cr | amount |
+      | 3 | 6 | 490 |
+    @case:543
+    Examples:
+      | dr | cr | amount |
+      | 3 | 7 | 503 |
+    @case:544
+    Examples:
+      | dr | cr | amount |
+      | 3 | 8 | 516 |
+    @case:545
+    Examples:
+      | dr | cr | amount |
+      | 3 | 9 | 529 |
+    @case:546
+    Examples:
+      | dr | cr | amount |
+      | 3 | 10 | 542 |
+    @case:547
+    Examples:
+      | dr | cr | amount |
+      | 3 | 11 | 555 |
+    @case:548
+    Examples:
+      | dr | cr | amount |
+      | 3 | 12 | 568 |
+    @case:549
+    Examples:
+      | dr | cr | amount |
+      | 3 | 13 | 581 |
+    @case:550
+    Examples:
+      | dr | cr | amount |
+      | 3 | 14 | 594 |
+    @case:551
+    Examples:
+      | dr | cr | amount |
+      | 4 | 1 | 607 |
+    @case:552
+    Examples:
+      | dr | cr | amount |
+      | 4 | 2 | 620 |
+    @case:553
+    Examples:
+      | dr | cr | amount |
+      | 4 | 3 | 633 |
+    @case:554
+    Examples:
+      | dr | cr | amount |
+      | 4 | 5 | 646 |
+    @case:555
+    Examples:
+      | dr | cr | amount |
+      | 4 | 6 | 659 |
+    @case:556
+    Examples:
+      | dr | cr | amount |
+      | 4 | 7 | 672 |
+    @case:557
+    Examples:
+      | dr | cr | amount |
+      | 4 | 8 | 685 |
+    @case:558
+    Examples:
+      | dr | cr | amount |
+      | 4 | 9 | 698 |
+    @case:559
+    Examples:
+      | dr | cr | amount |
+      | 4 | 10 | 711 |
+    @case:560
+    Examples:
+      | dr | cr | amount |
+      | 4 | 11 | 724 |
+    @case:561
+    Examples:
+      | dr | cr | amount |
+      | 4 | 12 | 737 |
+    @case:562
+    Examples:
+      | dr | cr | amount |
+      | 4 | 13 | 750 |
+    @case:563
+    Examples:
+      | dr | cr | amount |
+      | 4 | 14 | 763 |
+    @case:564
+    Examples:
+      | dr | cr | amount |
+      | 5 | 1 | 776 |
+    @case:565
+    Examples:
+      | dr | cr | amount |
+      | 5 | 2 | 789 |
+    @case:566
+    Examples:
+      | dr | cr | amount |
+      | 5 | 3 | 802 |
+    @case:567
+    Examples:
+      | dr | cr | amount |
+      | 5 | 4 | 815 |
+    @case:568
+    Examples:
+      | dr | cr | amount |
+      | 5 | 6 | 828 |
+    @case:569
+    Examples:
+      | dr | cr | amount |
+      | 5 | 7 | 841 |
+    @case:570
+    Examples:
+      | dr | cr | amount |
+      | 5 | 8 | 854 |
+    @case:571
+    Examples:
+      | dr | cr | amount |
+      | 5 | 9 | 867 |
+    @case:572
+    Examples:
+      | dr | cr | amount |
+      | 5 | 10 | 880 |
+    @case:573
+    Examples:
+      | dr | cr | amount |
+      | 5 | 11 | 893 |
+    @case:574
+    Examples:
+      | dr | cr | amount |
+      | 5 | 12 | 906 |
+    @case:575
+    Examples:
+      | dr | cr | amount |
+      | 5 | 13 | 919 |
+    @case:576
+    Examples:
+      | dr | cr | amount |
+      | 5 | 14 | 932 |
+    @case:577
+    Examples:
+      | dr | cr | amount |
+      | 6 | 1 | 945 |
+    @case:578
+    Examples:
+      | dr | cr | amount |
+      | 6 | 2 | 958 |
+    @case:579
+    Examples:
+      | dr | cr | amount |
+      | 6 | 3 | 971 |
+    @case:580
+    Examples:
+      | dr | cr | amount |
+      | 6 | 4 | 984 |
+    @case:581
+    Examples:
+      | dr | cr | amount |
+      | 6 | 5 | 997 |
+    @case:582
+    Examples:
+      | dr | cr | amount |
+      | 6 | 7 | 1010 |
+    @case:583
+    Examples:
+      | dr | cr | amount |
+      | 6 | 8 | 1023 |
+    @case:584
+    Examples:
+      | dr | cr | amount |
+      | 6 | 9 | 1036 |
+    @case:585
+    Examples:
+      | dr | cr | amount |
+      | 6 | 10 | 1049 |
+    @case:586
+    Examples:
+      | dr | cr | amount |
+      | 6 | 11 | 1062 |
+    @case:587
+    Examples:
+      | dr | cr | amount |
+      | 6 | 12 | 1075 |
+    @case:588
+    Examples:
+      | dr | cr | amount |
+      | 6 | 13 | 1088 |
+    @case:589
+    Examples:
+      | dr | cr | amount |
+      | 6 | 14 | 1101 |
+    @case:590
+    Examples:
+      | dr | cr | amount |
+      | 7 | 1 | 1114 |
+    @case:591
+    Examples:
+      | dr | cr | amount |
+      | 7 | 2 | 1127 |
+    @case:592
+    Examples:
+      | dr | cr | amount |
+      | 7 | 3 | 1140 |
+    @case:593
+    Examples:
+      | dr | cr | amount |
+      | 7 | 4 | 1153 |
+    @case:594
+    Examples:
+      | dr | cr | amount |
+      | 7 | 5 | 1166 |
+    @case:595
+    Examples:
+      | dr | cr | amount |
+      | 7 | 6 | 1179 |
+    @case:596
+    Examples:
+      | dr | cr | amount |
+      | 7 | 8 | 1192 |
+    @case:597
+    Examples:
+      | dr | cr | amount |
+      | 7 | 9 | 1205 |
+    @case:598
+    Examples:
+      | dr | cr | amount |
+      | 7 | 10 | 1218 |
+    @case:599
+    Examples:
+      | dr | cr | amount |
+      | 7 | 11 | 1231 |
+    @case:600
+    Examples:
+      | dr | cr | amount |
+      | 7 | 12 | 1244 |
+    @case:601
+    Examples:
+      | dr | cr | amount |
+      | 7 | 13 | 1257 |
+    @case:602
+    Examples:
+      | dr | cr | amount |
+      | 7 | 14 | 1270 |
+    @case:603
+    Examples:
+      | dr | cr | amount |
+      | 8 | 1 | 1283 |
+    @case:604
+    Examples:
+      | dr | cr | amount |
+      | 8 | 2 | 1296 |
+    @case:605
+    Examples:
+      | dr | cr | amount |
+      | 8 | 3 | 1309 |
+    @case:606
+    Examples:
+      | dr | cr | amount |
+      | 8 | 4 | 1322 |
+    @case:607
+    Examples:
+      | dr | cr | amount |
+      | 8 | 5 | 1335 |
+    @case:608
+    Examples:
+      | dr | cr | amount |
+      | 8 | 6 | 1348 |
+    @case:609
+    Examples:
+      | dr | cr | amount |
+      | 8 | 7 | 1361 |
+    @case:610
+    Examples:
+      | dr | cr | amount |
+      | 8 | 9 | 1374 |
+    @case:611
+    Examples:
+      | dr | cr | amount |
+      | 8 | 10 | 1387 |
 
-  Scenario Outline: Bulk balanced entry Dr <dr> Cr <cr> for <amount>
-    Given an accountant
-    And a balanced entry debiting account <dr> and crediting account <cr> for <amount>
-    Then the entry's debit and credit lines are equal
-    And the entry has exactly two lines
-    And the whole ledger is balanced
-
-    @case:832
-    Examples:
-      | dr | cr | amount |
-      | 2 | 1 | 11 |
-    @case:833
-    Examples:
-      | dr | cr | amount |
-      | 3 | 1 | 73 |
-    @case:834
-    Examples:
-      | dr | cr | amount |
-      | 4 | 1 | 149 |
-    @case:835
-    Examples:
-      | dr | cr | amount |
-      | 11 | 1 | 251 |
-    @case:836
-    Examples:
-      | dr | cr | amount |
-      | 12 | 1 | 499 |
-    @case:837
-    Examples:
-      | dr | cr | amount |
-      | 13 | 1 | 777 |
-    @case:838
-    Examples:
-      | dr | cr | amount |
-      | 14 | 1 | 1234 |
-    @case:839
-    Examples:
-      | dr | cr | amount |
-      | 2 | 1 | 2500 |
-    @case:840
-    Examples:
-      | dr | cr | amount |
-      | 3 | 1 | 4096 |
-    @case:841
-    Examples:
-      | dr | cr | amount |
-      | 4 | 1 | 7777 |
-    @case:842
-    Examples:
-      | dr | cr | amount |
-      | 1 | 2 | 9001 |
-    @case:843
-    Examples:
-      | dr | cr | amount |
-      | 3 | 2 | 12345 |
-    @case:844
-    Examples:
-      | dr | cr | amount |
-      | 4 | 2 | 20202 |
-    @case:845
-    Examples:
-      | dr | cr | amount |
-      | 11 | 2 | 33333 |
-    @case:846
-    Examples:
-      | dr | cr | amount |
-      | 12 | 2 | 45678 |
-    @case:847
-    Examples:
-      | dr | cr | amount |
-      | 13 | 2 | 64000 |
-    @case:848
-    Examples:
-      | dr | cr | amount |
-      | 14 | 2 | 88888 |
-    @case:849
-    Examples:
-      | dr | cr | amount |
-      | 1 | 2 | 100000 |
-    @case:850
-    Examples:
-      | dr | cr | amount |
-      | 3 | 2 | 123456 |
-    @case:851
-    Examples:
-      | dr | cr | amount |
-      | 4 | 2 | 175000 |
-    @case:852
-    Examples:
-      | dr | cr | amount |
-      | 1 | 5 | 222222 |
-    @case:853
-    Examples:
-      | dr | cr | amount |
-      | 2 | 5 | 275000 |
-    @case:854
-    Examples:
-      | dr | cr | amount |
-      | 3 | 5 | 300000 |
-    @case:855
-    Examples:
-      | dr | cr | amount |
-      | 4 | 5 | 375000 |
-    @case:856
-    Examples:
-      | dr | cr | amount |
-      | 11 | 5 | 420000 |
-    @case:857
-    Examples:
-      | dr | cr | amount |
-      | 12 | 5 | 499999 |
-    @case:858
-    Examples:
-      | dr | cr | amount |
-      | 13 | 5 | 64 |
-    @case:859
-    Examples:
-      | dr | cr | amount |
-      | 14 | 5 | 8 |
-    @case:860
-    Examples:
-      | dr | cr | amount |
-      | 1 | 5 | 3 |
-    @case:861
-    Examples:
-      | dr | cr | amount |
-      | 2 | 5 | 90909 |
-    @case:862
-    Examples:
-      | dr | cr | amount |
-      | 3 | 5 | 11 |
-    @case:863
-    Examples:
-      | dr | cr | amount |
-      | 4 | 5 | 73 |
-    @case:864
-    Examples:
-      | dr | cr | amount |
-      | 1 | 6 | 149 |
-    @case:865
-    Examples:
-      | dr | cr | amount |
-      | 2 | 6 | 251 |
-    @case:866
-    Examples:
-      | dr | cr | amount |
-      | 3 | 6 | 499 |
-    @case:867
-    Examples:
-      | dr | cr | amount |
-      | 4 | 6 | 777 |
-    @case:868
-    Examples:
-      | dr | cr | amount |
-      | 11 | 6 | 1234 |
-    @case:869
-    Examples:
-      | dr | cr | amount |
-      | 12 | 6 | 2500 |
-    @case:870
-    Examples:
-      | dr | cr | amount |
-      | 13 | 6 | 4096 |
-    @case:871
-    Examples:
-      | dr | cr | amount |
-      | 14 | 6 | 7777 |
-    @case:872
-    Examples:
-      | dr | cr | amount |
-      | 1 | 6 | 9001 |
-    @case:873
-    Examples:
-      | dr | cr | amount |
-      | 2 | 6 | 12345 |
-    @case:874
-    Examples:
-      | dr | cr | amount |
-      | 3 | 6 | 20202 |
-    @case:875
-    Examples:
-      | dr | cr | amount |
-      | 4 | 6 | 33333 |
-    @case:876
-    Examples:
-      | dr | cr | amount |
-      | 1 | 7 | 45678 |
-    @case:877
-    Examples:
-      | dr | cr | amount |
-      | 2 | 7 | 64000 |
-    @case:878
-    Examples:
-      | dr | cr | amount |
-      | 3 | 7 | 88888 |
-    @case:879
-    Examples:
-      | dr | cr | amount |
-      | 4 | 7 | 100000 |
-    @case:880
-    Examples:
-      | dr | cr | amount |
-      | 11 | 7 | 123456 |
-    @case:881
-    Examples:
-      | dr | cr | amount |
-      | 12 | 7 | 175000 |
-    @case:882
-    Examples:
-      | dr | cr | amount |
-      | 13 | 7 | 222222 |
-    @case:883
-    Examples:
-      | dr | cr | amount |
-      | 14 | 7 | 275000 |
-    @case:884
-    Examples:
-      | dr | cr | amount |
-      | 1 | 7 | 300000 |
-    @case:885
-    Examples:
-      | dr | cr | amount |
-      | 2 | 7 | 375000 |
-    @case:886
-    Examples:
-      | dr | cr | amount |
-      | 3 | 7 | 420000 |
-    @case:887
-    Examples:
-      | dr | cr | amount |
-      | 4 | 7 | 499999 |
-    @case:888
-    Examples:
-      | dr | cr | amount |
-      | 1 | 9 | 64 |
-    @case:889
-    Examples:
-      | dr | cr | amount |
-      | 2 | 9 | 8 |
-    @case:890
-    Examples:
-      | dr | cr | amount |
-      | 3 | 9 | 3 |
-    @case:891
-    Examples:
-      | dr | cr | amount |
-      | 4 | 9 | 90909 |
-    @case:892
-    Examples:
-      | dr | cr | amount |
-      | 11 | 9 | 11 |
-    @case:893
-    Examples:
-      | dr | cr | amount |
-      | 12 | 9 | 73 |
-    @case:894
-    Examples:
-      | dr | cr | amount |
-      | 13 | 9 | 149 |
-    @case:895
-    Examples:
-      | dr | cr | amount |
-      | 14 | 9 | 251 |
-    @case:896
-    Examples:
-      | dr | cr | amount |
-      | 1 | 9 | 499 |
-    @case:897
-    Examples:
-      | dr | cr | amount |
-      | 2 | 9 | 777 |
-    @case:898
-    Examples:
-      | dr | cr | amount |
-      | 3 | 9 | 1234 |
-    @case:899
-    Examples:
-      | dr | cr | amount |
-      | 4 | 9 | 2500 |
-    @case:900
-    Examples:
-      | dr | cr | amount |
-      | 1 | 10 | 4096 |
-    @case:901
-    Examples:
-      | dr | cr | amount |
-      | 2 | 10 | 7777 |
-    @case:902
-    Examples:
-      | dr | cr | amount |
-      | 3 | 10 | 9001 |
-    @case:903
-    Examples:
-      | dr | cr | amount |
-      | 4 | 10 | 12345 |
-    @case:904
-    Examples:
-      | dr | cr | amount |
-      | 11 | 10 | 20202 |
-    @case:905
-    Examples:
-      | dr | cr | amount |
-      | 12 | 10 | 33333 |
-    @case:906
-    Examples:
-      | dr | cr | amount |
-      | 13 | 10 | 45678 |
-    @case:907
-    Examples:
-      | dr | cr | amount |
-      | 14 | 10 | 64000 |
-    @case:908
-    Examples:
-      | dr | cr | amount |
-      | 1 | 10 | 88888 |
-    @case:909
-    Examples:
-      | dr | cr | amount |
-      | 2 | 10 | 100000 |
-    @case:910
-    Examples:
-      | dr | cr | amount |
-      | 3 | 10 | 123456 |
-    @case:911
-    Examples:
-      | dr | cr | amount |
-      | 4 | 10 | 175000 |
-    @case:912
-    Examples:
-      | dr | cr | amount |
-      | 1 | 5 | 222222 |
-    @case:913
-    Examples:
-      | dr | cr | amount |
-      | 2 | 5 | 275000 |
-    @case:914
-    Examples:
-      | dr | cr | amount |
-      | 3 | 5 | 300000 |
-    @case:915
-    Examples:
-      | dr | cr | amount |
-      | 4 | 5 | 375000 |
-    @case:916
-    Examples:
-      | dr | cr | amount |
-      | 11 | 5 | 420000 |
-    @case:917
-    Examples:
-      | dr | cr | amount |
-      | 12 | 5 | 499999 |
-    @case:918
-    Examples:
-      | dr | cr | amount |
-      | 13 | 5 | 64 |
-    @case:919
-    Examples:
-      | dr | cr | amount |
-      | 14 | 5 | 8 |
-    @case:920
-    Examples:
-      | dr | cr | amount |
-      | 1 | 5 | 3 |
-    @case:921
-    Examples:
-      | dr | cr | amount |
-      | 2 | 5 | 90909 |

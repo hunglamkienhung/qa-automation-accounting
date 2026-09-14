@@ -2,7 +2,7 @@
 
 1000 cases across a self-written mini-books service (a real SQLite store behind the chart of accounts, journal entries, reversals and the financial reports) and the live Nager.Date public-holiday API. Generated from `../features/*.feature` by `build.js`; do not edit by hand.
 
-## mini-books-db (180)
+## mini-books-db (190)
 
 | ID | Layer | Priority | Title |
 |---|---|---|---|
@@ -96,98 +96,108 @@
 | 437 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
 | 438 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
 | 439 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
-| 832 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 833 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 834 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 835 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 836 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 837 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 838 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 839 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 840 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 841 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 842 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 843 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 844 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 845 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 846 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 847 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 848 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 849 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 850 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 851 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 852 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 853 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 854 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 855 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 856 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 857 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 858 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 859 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 860 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 861 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 862 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 863 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 864 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 865 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 866 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 867 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 868 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 869 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 870 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 871 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 872 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 873 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 874 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 875 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 876 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 877 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 878 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 879 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 880 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 881 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 882 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 883 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 884 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 885 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 886 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 887 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 888 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 889 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 890 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 891 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 892 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 893 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 894 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 895 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 896 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 897 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 898 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 899 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 900 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 901 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 902 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 903 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 904 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 905 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 906 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 907 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 908 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 909 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 910 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 911 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 912 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 913 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 914 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 915 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 916 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 917 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 918 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 919 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 920 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
-| 921 | BE/DB | Medium | Bulk balanced entry Dr <dr> Cr <cr> for <amount> |
+| 512 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 513 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 514 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 515 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 516 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 517 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 518 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 519 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 520 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 521 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 522 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 523 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 524 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 525 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 526 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 527 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 528 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 529 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 530 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 531 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 532 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 533 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 534 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 535 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 536 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 537 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 538 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 539 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 540 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 541 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 542 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 543 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 544 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 545 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 546 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 547 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 548 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 549 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 550 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 551 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 552 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 553 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 554 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 555 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 556 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 557 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 558 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 559 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 560 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 561 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 562 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 563 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 564 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 565 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 566 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 567 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 568 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 569 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 570 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 571 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 572 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 573 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 574 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 575 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 576 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 577 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 578 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 579 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 580 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 581 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 582 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 583 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 584 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 585 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 586 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 587 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 588 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 589 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 590 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 591 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 592 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 593 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 594 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 595 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 596 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 597 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 598 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 599 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 600 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 601 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 602 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 603 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 604 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 605 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 606 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 607 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 608 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 609 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 610 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
+| 611 | BE/DB | Medium | More balanced entry Dr <dr> Cr <cr> for <amount> is a balanced pair |
 
-## mini-books-journal (304)
+## mini-books-journal (224)
 
 | ID | Layer | Priority | Title |
 |---|---|---|---|
@@ -315,188 +325,108 @@
 | 333 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
 | 334 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
 | 335 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
-| 512 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 513 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 514 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 515 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 516 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 517 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 518 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 519 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 520 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 521 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 522 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 523 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 524 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 525 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 526 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 527 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 528 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 529 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 530 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 531 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 532 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 533 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 534 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 535 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 536 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 537 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 538 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 539 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 540 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 541 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 542 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 543 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 544 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 545 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 546 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 547 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 548 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 549 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 550 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 551 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 552 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 553 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 554 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 555 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 556 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 557 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 558 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 559 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 560 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 561 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 562 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 563 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 564 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 565 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 566 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 567 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 568 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 569 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 570 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 571 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 572 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 573 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 574 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 575 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 576 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 577 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 578 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 579 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 580 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 581 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 582 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 583 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 584 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 585 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 586 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 587 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 588 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 589 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 590 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 591 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 592 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 593 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 594 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 595 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 596 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 597 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 598 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 599 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 600 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 601 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 602 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 603 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 604 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 605 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 606 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 607 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 608 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 609 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 610 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 611 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 612 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 613 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 614 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 615 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 616 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 617 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 618 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 619 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 620 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 621 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 622 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 623 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 624 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 625 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 626 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 627 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 628 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 629 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 630 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 631 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 632 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 633 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 634 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 635 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 636 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 637 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 638 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 639 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 640 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 641 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 642 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 643 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 644 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 645 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 646 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 647 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 648 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 649 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 650 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 651 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 652 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 653 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 654 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 655 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 656 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 657 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 658 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 659 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 660 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 661 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 662 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 663 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 664 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 665 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 666 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 667 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 668 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 669 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 670 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 671 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 672 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 673 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 674 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 675 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 676 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 677 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 678 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 679 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 680 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 681 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 682 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 683 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 684 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 685 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 686 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 687 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 688 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 689 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 690 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
-| 691 | BE/API | Medium | Bulk balanced posting Dr <dr> Cr <cr> for <amount> |
+| 612 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 613 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 614 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 615 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 616 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 617 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 618 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 619 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 620 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 621 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 622 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 623 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 624 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 625 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 626 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 627 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 628 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 629 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 630 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 631 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 632 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 633 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 634 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 635 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 636 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 637 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 638 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 639 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 640 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 641 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 642 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 643 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 644 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 645 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 646 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 647 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 648 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 649 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 650 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 651 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 652 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 653 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 654 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 655 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 656 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 657 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 658 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 659 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 660 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 661 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 662 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 663 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 664 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 665 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 666 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 667 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 668 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 669 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 670 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 671 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 672 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 673 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 674 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 675 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 676 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 677 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 678 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 679 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 680 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 681 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 682 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 683 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 684 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 685 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 686 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 687 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 688 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 689 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 690 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 691 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 692 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 693 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 694 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 695 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 696 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 697 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 698 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 699 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 700 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 701 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 702 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 703 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 704 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 705 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 706 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 707 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 708 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 709 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 710 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
+| 711 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> posts and balances |
 
-## mini-books-reports (257)
+## mini-books-reports (217)
 
 | ID | Layer | Priority | Title |
 |---|---|---|---|
@@ -617,148 +547,108 @@
 | 395 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
 | 396 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
 | 397 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 692 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 693 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 694 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 695 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 696 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 697 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 698 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 699 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 700 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 701 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 702 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 703 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 704 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 705 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 706 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 707 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 708 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 709 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 710 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 711 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 712 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 713 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 714 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 715 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 716 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 717 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 718 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 719 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 720 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 721 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 722 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 723 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 724 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 725 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 726 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 727 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 728 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 729 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 730 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 731 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 732 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 733 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 734 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 735 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 736 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 737 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 738 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 739 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 740 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 741 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 742 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 743 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 744 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 745 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 746 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 747 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 748 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 749 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 750 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 751 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 752 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 753 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 754 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 755 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 756 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 757 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 758 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 759 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 760 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 761 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 762 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 763 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 764 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 765 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 766 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 767 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 768 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 769 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 770 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 771 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 772 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 773 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 774 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 775 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 776 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 777 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 778 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 779 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 780 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 781 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 782 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 783 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 784 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 785 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 786 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 787 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 788 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 789 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 790 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 791 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 792 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 793 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 794 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 795 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 796 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 797 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 798 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 799 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 800 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 801 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 802 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 803 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 804 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 805 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 806 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 807 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 808 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 809 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 810 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 811 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 812 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 813 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 814 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 815 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 816 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 817 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 818 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 819 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 820 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 821 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 822 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 823 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 824 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 825 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 826 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 827 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 828 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 829 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 830 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
-| 831 | BE/API | Medium | Bulk Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 712 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 713 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 714 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 715 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 716 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 717 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 718 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 719 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 720 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 721 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 722 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 723 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 724 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 725 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 726 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 727 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 728 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 729 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 730 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 731 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 732 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 733 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 734 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 735 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 736 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 737 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 738 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 739 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 740 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 741 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 742 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 743 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 744 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 745 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 746 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 747 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 748 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 749 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 750 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 751 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 752 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 753 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 754 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 755 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 756 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 757 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 758 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 759 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 760 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 761 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 762 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 763 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 764 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 765 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 766 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 767 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 768 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 769 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 770 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 771 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 772 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 773 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 774 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 775 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 776 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 777 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 778 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 779 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 780 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 781 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 782 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 783 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 784 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 785 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 786 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 787 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 788 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 789 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 790 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 791 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 792 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 793 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 794 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 795 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 796 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 797 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 798 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 799 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 800 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 801 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 802 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 803 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 804 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 805 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 806 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 807 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 808 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 809 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 810 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
+| 811 | BE/API | Medium | More booking Dr <dr> Cr <cr> for <amount> keeps the equation holding |
 
-## mini-books-integrity (46)
+## mini-books-integrity (115)
 
 | ID | Layer | Priority | Title |
 |---|---|---|---|
@@ -808,6 +698,75 @@
 | 475 | BE/API | Medium | More <racers> racing idempotent posts make one entry |
 | 476 | BE/API | Medium | More <racers> racing idempotent posts make one entry |
 | 477 | BE/API | Medium | More <racers> racing idempotent posts make one entry |
+| 932 | BE/API | Medium | <racers> racing idempotent posts make one entry |
+| 933 | BE/API | Medium | <racers> racing idempotent posts make one entry |
+| 934 | BE/API | Medium | <racers> racing idempotent posts make one entry |
+| 935 | BE/API | Medium | <racers> racing idempotent posts make one entry |
+| 936 | BE/API | Medium | <racers> racing idempotent posts make one entry |
+| 937 | BE/API | Medium | <racers> racing idempotent posts make one entry |
+| 938 | BE/API | Medium | <racers> racing idempotent posts make one entry |
+| 939 | BE/API | Medium | <racers> racing idempotent posts make one entry |
+| 940 | BE/API | Medium | <racers> racing idempotent posts make one entry |
+| 941 | BE/API | Medium | <racers> racing idempotent posts make one entry |
+| 942 | BE/API | Medium | <racers> racing idempotent posts make one entry |
+| 943 | BE/API | Medium | <racers> racing idempotent posts make one entry |
+| 944 | BE/API | Medium | <racers> racing idempotent posts make one entry |
+| 945 | BE/API | Medium | <racers> racing idempotent posts make one entry |
+| 946 | BE/API | Medium | <racers> racing idempotent posts make one entry |
+| 947 | BE/API | Medium | <racers> racing idempotent posts make one entry |
+| 948 | BE/API | Medium | <racers> racing idempotent posts make one entry |
+| 949 | BE/API | Medium | <racers> racing idempotent posts make one entry |
+| 950 | BE/API | Medium | <racers> racing idempotent posts make one entry |
+| 951 | BE/API | Medium | <racers> racing idempotent posts make one entry |
+| 952 | BE/API | Medium | <racers> racing idempotent posts make one entry |
+| 953 | BE/API | Medium | <racers> racing idempotent posts make one entry |
+| 954 | BE/API | Medium | <racers> racing idempotent posts make one entry |
+| 955 | BE/API | Medium | <racers> racing idempotent posts make one entry |
+| 956 | BE/API | Medium | <racers> racing idempotent posts make one entry |
+| 957 | BE/API | Medium | <racers> racing idempotent posts make one entry |
+| 958 | BE/API | Medium | <racers> racing idempotent posts make one entry |
+| 959 | BE/API | Medium | <racers> racing idempotent posts make one entry |
+| 960 | BE/API | Medium | <racers> racing idempotent posts make one entry |
+| 961 | BE/API | Medium | <racers> racing idempotent posts make one entry |
+| 962 | BE/API | Medium | <racers> racing idempotent posts make one entry |
+| 963 | BE/API | Medium | <racers> racing idempotent posts make one entry |
+| 964 | BE/API | Medium | <racers> racing idempotent posts make one entry |
+| 965 | BE/API | Medium | <racers> racing idempotent posts make one entry |
+| 966 | BE/API | Medium | A larger burst of <racers> concurrent entries stays gapless |
+| 967 | BE/API | Medium | A larger burst of <racers> concurrent entries stays gapless |
+| 968 | BE/API | Medium | A larger burst of <racers> concurrent entries stays gapless |
+| 969 | BE/API | Medium | A larger burst of <racers> concurrent entries stays gapless |
+| 970 | BE/API | Medium | A larger burst of <racers> concurrent entries stays gapless |
+| 971 | BE/API | Medium | A larger burst of <racers> concurrent entries stays gapless |
+| 972 | BE/API | Medium | A larger burst of <racers> concurrent entries stays gapless |
+| 973 | BE/API | Medium | A larger burst of <racers> concurrent entries stays gapless |
+| 974 | BE/API | Medium | A larger burst of <racers> concurrent entries stays gapless |
+| 975 | BE/API | Medium | A larger burst of <racers> concurrent entries stays gapless |
+| 976 | BE/API | Medium | A larger burst of <racers> concurrent entries stays gapless |
+| 977 | BE/API | Medium | A larger burst of <racers> concurrent entries stays gapless |
+| 978 | BE/API | Medium | A larger burst of <racers> concurrent entries stays gapless |
+| 979 | BE/API | Medium | A larger burst of <racers> concurrent entries stays gapless |
+| 980 | BE/API | Medium | A larger burst of <racers> concurrent entries stays gapless |
+| 981 | BE/API | Medium | A larger burst of <racers> concurrent entries stays gapless |
+| 982 | BE/API | Medium | A larger burst of <racers> concurrent entries stays gapless |
+| 983 | BE/API | Medium | A larger burst of <racers> concurrent entries stays gapless |
+| 984 | BE/API | Medium | A larger burst of <racers> concurrent entries stays gapless |
+| 985 | BE/API | Medium | A larger burst of <racers> concurrent entries stays gapless |
+| 986 | BE/API | Medium | A larger burst of <racers> concurrent entries stays gapless |
+| 987 | BE/API | Medium | A larger burst of <racers> concurrent entries stays gapless |
+| 988 | BE/API | Medium | A larger burst of <racers> concurrent entries stays gapless |
+| 989 | BE/API | Medium | A larger burst of <racers> concurrent entries stays gapless |
+| 990 | BE/API | Medium | A larger burst of <racers> concurrent entries stays gapless |
+| 991 | BE/API | Medium | A larger burst of <racers> concurrent entries stays gapless |
+| 992 | BE/API | Medium | A larger burst of <racers> concurrent entries stays gapless |
+| 993 | BE/API | Medium | A larger burst of <racers> concurrent entries stays gapless |
+| 994 | BE/API | Medium | A larger burst of <racers> concurrent entries stays gapless |
+| 995 | BE/API | Medium | A larger burst of <racers> concurrent entries stays gapless |
+| 996 | BE/API | Medium | A larger burst of <racers> concurrent entries stays gapless |
+| 997 | BE/API | Medium | A larger burst of <racers> concurrent entries stays gapless |
+| 998 | BE/API | Medium | A larger burst of <racers> concurrent entries stays gapless |
+| 999 | BE/API | Medium | A larger burst of <racers> concurrent entries stays gapless |
+| 1000 | BE/API | Medium | A larger burst of <racers> concurrent entries stays gapless |
 
 ## mini-books-security (15)
 
@@ -829,7 +788,7 @@
 | 193 | BE/API | Medium | An account response never carries a bearer token |
 | 194 | BE/API | Medium | The trial balance never carries a bearer token |
 
-## mini-books-fe (56)
+## mini-books-fe (37)
 
 | ID | Layer | Priority | Title |
 |---|---|---|---|
@@ -870,27 +829,8 @@
 | 453 | FE/UI | Medium | The account page for <acc> after posting shows the stored balance |
 | 454 | FE/UI | Medium | The account page for <acc> after posting shows the stored balance |
 | 455 | FE/UI | Medium | The account page for <acc> after posting shows the stored balance |
-| 922 | FE/UI | Medium | Bulk account page for <acc> shows the stored balance |
-| 923 | FE/UI | Medium | Bulk account page for <acc> shows the stored balance |
-| 924 | FE/UI | Medium | Bulk account page for <acc> shows the stored balance |
-| 925 | FE/UI | Medium | Bulk account page for <acc> shows the stored balance |
-| 926 | FE/UI | Medium | Bulk account page for <acc> shows the stored balance |
-| 927 | FE/UI | Medium | Bulk account page for <acc> shows the stored balance |
-| 928 | FE/UI | Medium | Bulk account page for <acc> shows the stored balance |
-| 929 | FE/UI | Medium | Bulk account page for <acc> shows the stored balance |
-| 930 | FE/UI | Medium | Bulk account page for <acc> shows the stored balance |
-| 931 | FE/UI | Medium | Bulk account page for <acc> shows the stored balance |
-| 932 | FE/UI | Medium | Bulk account page for <acc> shows the stored balance |
-| 933 | FE/UI | Medium | Bulk account page for <acc> shows the stored balance |
-| 934 | FE/UI | Medium | Bulk account page for <acc> shows the stored balance |
-| 935 | FE/UI | Medium | Bulk account page for <acc> shows the stored balance |
-| 936 | FE/UI | Medium | Bulk account page for <acc> shows the stored balance |
-| 937 | FE/UI | Medium | Bulk account page for <acc> shows the stored balance |
-| 938 | FE/UI | Medium | Bulk account page for <acc> shows the stored balance |
-| 939 | FE/UI | Medium | Bulk account page for <acc> shows the stored balance |
-| 940 | FE/UI | Medium | Bulk account page for <acc> shows the stored balance |
 
-## nager-api (142)
+## nager-api (202)
 
 | ID | Layer | Priority | Title |
 |---|---|---|---|
@@ -976,63 +916,123 @@
 | 509 | BE/API | Medium | More settlement: after <date> in the US is <expected> |
 | 510 | BE/API | Medium | More settlement: after <date> in the US is <expected> |
 | 511 | BE/API | Medium | More settlement: after <date> in the US is <expected> |
-| 941 | BE/API | Medium | Bulk: the business day after <date> with no holidays is <expected> |
-| 942 | BE/API | Medium | Bulk: the business day after <date> with no holidays is <expected> |
-| 943 | BE/API | Medium | Bulk: the business day after <date> with no holidays is <expected> |
-| 944 | BE/API | Medium | Bulk: the business day after <date> with no holidays is <expected> |
-| 945 | BE/API | Medium | Bulk: the business day after <date> with no holidays is <expected> |
-| 946 | BE/API | Medium | Bulk: the business day after <date> with no holidays is <expected> |
-| 947 | BE/API | Medium | Bulk: the business day after <date> with no holidays is <expected> |
-| 948 | BE/API | Medium | Bulk: the business day after <date> with no holidays is <expected> |
-| 949 | BE/API | Medium | Bulk: the business day after <date> with no holidays is <expected> |
-| 950 | BE/API | Medium | Bulk: the business day after <date> with no holidays is <expected> |
-| 951 | BE/API | Medium | Bulk: the business day after <date> with no holidays is <expected> |
-| 952 | BE/API | Medium | Bulk: the business day after <date> with no holidays is <expected> |
-| 953 | BE/API | Medium | Bulk: the business day after <date> with no holidays is <expected> |
-| 954 | BE/API | Medium | Bulk: the business day after <date> with no holidays is <expected> |
-| 955 | BE/API | Medium | Bulk: the business day after <date> with no holidays is <expected> |
-| 956 | BE/API | Medium | Bulk: the business day after <date> with no holidays is <expected> |
-| 957 | BE/API | Medium | Bulk: the business day after <date> with no holidays is <expected> |
-| 958 | BE/API | Medium | Bulk: the business day after <date> with no holidays is <expected> |
-| 959 | BE/API | Medium | Bulk: the business day after <date> with no holidays is <expected> |
-| 960 | BE/API | Medium | Bulk: the business day after <date> with no holidays is <expected> |
-| 961 | BE/API | Medium | Bulk: the business day after <date> with no holidays is <expected> |
-| 962 | BE/API | Medium | Bulk: the business day after <date> with no holidays is <expected> |
-| 963 | BE/API | Medium | Bulk: the business day after <date> with no holidays is <expected> |
-| 964 | BE/API | Medium | Bulk: the business day after <date> with no holidays is <expected> |
-| 965 | BE/API | Medium | Bulk: the business day after <date> with no holidays is <expected> |
-| 966 | BE/API | Medium | Bulk: the business day after <date> with no holidays is <expected> |
-| 967 | BE/API | Medium | Bulk: the business day after <date> with no holidays is <expected> |
-| 968 | BE/API | Medium | Bulk: the business day after <date> with no holidays is <expected> |
-| 969 | BE/API | Medium | Bulk: the business day after <date> with no holidays is <expected> |
-| 970 | BE/API | Medium | Bulk: the business day after <date> with no holidays is <expected> |
-| 971 | BE/API | Medium | Bulk: the business day after <date> with no holidays is <expected> |
-| 972 | BE/API | Medium | Bulk: the business day after <date> with no holidays is <expected> |
-| 973 | BE/API | Medium | Bulk: the business day after <date> with no holidays is <expected> |
-| 974 | BE/API | Medium | Bulk: the business day after <date> with no holidays is <expected> |
-| 975 | BE/API | Medium | Bulk: the business day after <date> with no holidays is <expected> |
-| 976 | BE/API | Medium | Bulk: the business day after <date> with no holidays is <expected> |
-| 977 | BE/API | Medium | Bulk: the business day after <date> with no holidays is <expected> |
-| 978 | BE/API | Medium | Bulk: the business day after <date> with no holidays is <expected> |
-| 979 | BE/API | Medium | Bulk: the business day after <date> with no holidays is <expected> |
-| 980 | BE/API | Medium | Bulk: the business day after <date> with no holidays is <expected> |
-| 981 | BE/API | Medium | Bulk settlement: after <date> in the US is <expected> |
-| 982 | BE/API | Medium | Bulk settlement: after <date> in the US is <expected> |
-| 983 | BE/API | Medium | Bulk settlement: after <date> in the US is <expected> |
-| 984 | BE/API | Medium | Bulk settlement: after <date> in the US is <expected> |
-| 985 | BE/API | Medium | Bulk settlement: after <date> in the US is <expected> |
-| 986 | BE/API | Medium | Bulk settlement: after <date> in the US is <expected> |
-| 987 | BE/API | Medium | Bulk settlement: after <date> in the US is <expected> |
-| 988 | BE/API | Medium | Bulk settlement: after <date> in the US is <expected> |
-| 989 | BE/API | Medium | Bulk settlement: after <date> in the US is <expected> |
-| 990 | BE/API | Medium | Bulk settlement: after <date> in the US is <expected> |
-| 991 | BE/API | Medium | Bulk settlement: after <date> in the US is <expected> |
-| 992 | BE/API | Medium | Bulk settlement: after <date> in the US is <expected> |
-| 993 | BE/API | Medium | Bulk settlement: after <date> in the US is <expected> |
-| 994 | BE/API | Medium | Bulk settlement: after <date> in the US is <expected> |
-| 995 | BE/API | Medium | Bulk settlement: after <date> in the US is <expected> |
-| 996 | BE/API | Medium | Bulk settlement: after <date> in the US is <expected> |
-| 997 | BE/API | Medium | Bulk settlement: after <date> in the US is <expected> |
-| 998 | BE/API | Medium | Bulk settlement: after <date> in the US is <expected> |
-| 999 | BE/API | Medium | Bulk settlement: after <date> in the US is <expected> |
-| 1000 | BE/API | Medium | Bulk settlement: after <date> in the US is <expected> |
+| 812 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 813 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 814 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 815 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 816 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 817 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 818 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 819 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 820 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 821 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 822 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 823 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 824 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 825 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 826 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 827 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 828 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 829 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 830 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 831 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 832 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 833 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 834 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 835 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 836 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 837 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 838 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 839 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 840 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 841 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 842 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 843 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 844 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 845 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 846 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 847 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 848 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 849 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 850 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 851 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 852 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 853 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 854 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 855 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 856 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 857 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 858 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 859 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 860 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 861 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 862 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 863 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 864 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 865 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 866 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 867 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 868 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 869 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 870 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 871 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 872 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 873 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 874 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 875 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 876 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 877 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 878 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 879 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 880 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 881 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 882 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 883 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 884 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 885 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 886 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 887 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 888 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 889 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 890 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 891 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 892 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 893 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 894 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 895 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 896 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 897 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 898 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 899 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 900 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 901 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 902 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 903 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 904 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 905 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 906 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 907 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 908 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 909 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 910 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 911 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 912 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 913 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 914 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 915 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 916 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 917 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 918 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 919 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 920 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 921 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 922 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 923 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 924 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 925 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 926 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 927 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 928 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 929 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 930 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |
+| 931 | BE/API | Medium | More: the business day after <date> with no holidays is <expected> |

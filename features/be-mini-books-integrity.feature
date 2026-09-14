@@ -134,6 +134,143 @@ Feature: The books stay in balance, always
     Examples:
       | racers |
       | 12 |
+    @case:932
+    Examples:
+      | racers |
+      | 2 |
+    @case:933
+    Examples:
+      | racers |
+      | 3 |
+    @case:934
+    Examples:
+      | racers |
+      | 4 |
+    @case:935
+    Examples:
+      | racers |
+      | 5 |
+    @case:936
+    Examples:
+      | racers |
+      | 6 |
+    @case:937
+    Examples:
+      | racers |
+      | 7 |
+    @case:938
+    Examples:
+      | racers |
+      | 8 |
+    @case:939
+    Examples:
+      | racers |
+      | 9 |
+    @case:940
+    Examples:
+      | racers |
+      | 10 |
+    @case:941
+    Examples:
+      | racers |
+      | 11 |
+    @case:942
+    Examples:
+      | racers |
+      | 12 |
+    @case:943
+    Examples:
+      | racers |
+      | 13 |
+    @case:944
+    Examples:
+      | racers |
+      | 14 |
+    @case:945
+    Examples:
+      | racers |
+      | 15 |
+    @case:946
+    Examples:
+      | racers |
+      | 16 |
+    @case:947
+    Examples:
+      | racers |
+      | 17 |
+    @case:948
+    Examples:
+      | racers |
+      | 18 |
+    @case:949
+    Examples:
+      | racers |
+      | 19 |
+    @case:950
+    Examples:
+      | racers |
+      | 20 |
+    @case:951
+    Examples:
+      | racers |
+      | 21 |
+    @case:952
+    Examples:
+      | racers |
+      | 22 |
+    @case:953
+    Examples:
+      | racers |
+      | 23 |
+    @case:954
+    Examples:
+      | racers |
+      | 24 |
+    @case:955
+    Examples:
+      | racers |
+      | 25 |
+    @case:956
+    Examples:
+      | racers |
+      | 26 |
+    @case:957
+    Examples:
+      | racers |
+      | 27 |
+    @case:958
+    Examples:
+      | racers |
+      | 28 |
+    @case:959
+    Examples:
+      | racers |
+      | 29 |
+    @case:960
+    Examples:
+      | racers |
+      | 30 |
+    @case:961
+    Examples:
+      | racers |
+      | 31 |
+    @case:962
+    Examples:
+      | racers |
+      | 32 |
+    @case:963
+    Examples:
+      | racers |
+      | 33 |
+    @case:964
+    Examples:
+      | racers |
+      | 34 |
+    @case:965
+    Examples:
+      | racers |
+      | 35 |
+
 
   # ---------------------------------------------------------------- normal balances by type
 
@@ -217,6 +354,147 @@ Feature: The books stay in balance, always
     Examples:
       | racers |
       | 25 |
+    @case:966
+    Examples:
+      | racers |
+      | 2 |
+    @case:967
+    Examples:
+      | racers |
+      | 3 |
+    @case:968
+    Examples:
+      | racers |
+      | 4 |
+    @case:969
+    Examples:
+      | racers |
+      | 5 |
+    @case:970
+    Examples:
+      | racers |
+      | 6 |
+    @case:971
+    Examples:
+      | racers |
+      | 7 |
+    @case:972
+    Examples:
+      | racers |
+      | 8 |
+    @case:973
+    Examples:
+      | racers |
+      | 9 |
+    @case:974
+    Examples:
+      | racers |
+      | 10 |
+    @case:975
+    Examples:
+      | racers |
+      | 11 |
+    @case:976
+    Examples:
+      | racers |
+      | 12 |
+    @case:977
+    Examples:
+      | racers |
+      | 13 |
+    @case:978
+    Examples:
+      | racers |
+      | 14 |
+    @case:979
+    Examples:
+      | racers |
+      | 15 |
+    @case:980
+    Examples:
+      | racers |
+      | 16 |
+    @case:981
+    Examples:
+      | racers |
+      | 17 |
+    @case:982
+    Examples:
+      | racers |
+      | 18 |
+    @case:983
+    Examples:
+      | racers |
+      | 19 |
+    @case:984
+    Examples:
+      | racers |
+      | 20 |
+    @case:985
+    Examples:
+      | racers |
+      | 21 |
+    @case:986
+    Examples:
+      | racers |
+      | 22 |
+    @case:987
+    Examples:
+      | racers |
+      | 23 |
+    @case:988
+    Examples:
+      | racers |
+      | 24 |
+    @case:989
+    Examples:
+      | racers |
+      | 25 |
+    @case:990
+    Examples:
+      | racers |
+      | 26 |
+    @case:991
+    Examples:
+      | racers |
+      | 27 |
+    @case:992
+    Examples:
+      | racers |
+      | 28 |
+    @case:993
+    Examples:
+      | racers |
+      | 29 |
+    @case:994
+    Examples:
+      | racers |
+      | 30 |
+    @case:995
+    Examples:
+      | racers |
+      | 31 |
+    @case:996
+    Examples:
+      | racers |
+      | 32 |
+    @case:997
+    Examples:
+      | racers |
+      | 33 |
+    @case:998
+    Examples:
+      | racers |
+      | 34 |
+    @case:999
+    Examples:
+      | racers |
+      | 35 |
+    @case:1000
+    Examples:
+      | racers |
+      | 36 |
+
 
   Scenario Outline: More <racers> racing idempotent posts make one entry
     When <racers> accountants post the same entry with one key at once
