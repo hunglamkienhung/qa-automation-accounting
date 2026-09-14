@@ -13,6 +13,7 @@ const { ApiUnreachable } = require('../../../be/api/venues/books');
 
 const money = (c) => (c / 100).toFixed(2);
 const num = (s) => Number(String(s).replace(/[^0-9.-]/g, ''));
+const cents = (s) => Math.round(num(s) * 100);   // parse a dollar string back to integer cents for exact comparison
 
 Given('the home page is open', { timeout: 90_000 }, async function () {
   this.booksPage = new BooksPage(this.page);
@@ -74,13 +75,13 @@ Then('the entry page shows status {string}', async function (status) {
 // ---------------------------------------------------------------- reports
 
 Then('the trial balance page shows the debits equal the credits', async function () {
-  await screen(this, 'trial balance debits == credits', async () => { const t = this.screen.tb; return { passed: !!t && num(t.debitsText) === num(t.creditsText), detail: t ? t.debitsText + ' vs ' + t.creditsText : 'no page' }; });
+  await screen(this, 'trial balance debits == credits', async () => { const t = this.screen.tb; return { passed: !!t && cents(t.debitsText) === cents(t.creditsText), detail: t ? t.debitsText + ' vs ' + t.creditsText : 'no page' }; });
 });
 Then('the trial balance page shows it balanced', async function () {
   await screen(this, 'trial balance balanced', async () => ({ passed: !!this.screen.tb && this.screen.tb.balancedText === 'balanced', detail: this.screen.tb ? this.screen.tb.balancedText : 'no page' }));
 });
 Then('the balance sheet page shows Assets equal Liabilities plus Equity plus Net income', async function () {
-  await screen(this, 'balance sheet identity on screen', async () => { const b = this.screen.bs; if (!b) return { passed: false, detail: 'no page' }; return { passed: num(b.assetsText) === num(b.liabilitiesText) + num(b.equityText) + num(b.netIncomeText), detail: `A ${b.assetsText} = L ${b.liabilitiesText} + E ${b.equityText} + NI ${b.netIncomeText}` }; });
+  await screen(this, 'balance sheet identity on screen', async () => { const b = this.screen.bs; if (!b) return { passed: false, detail: 'no page' }; return { passed: cents(b.assetsText) === cents(b.liabilitiesText) + cents(b.equityText) + cents(b.netIncomeText), detail: `A ${b.assetsText} = L ${b.liabilitiesText} + E ${b.equityText} + NI ${b.netIncomeText}` }; });
 });
 Then('the balance sheet page shows it balanced', async function () {
   await screen(this, 'balance sheet balanced', async () => ({ passed: !!this.screen.bs && this.screen.bs.balancedText === 'balanced', detail: this.screen.bs ? this.screen.bs.balancedText : 'no page' }));

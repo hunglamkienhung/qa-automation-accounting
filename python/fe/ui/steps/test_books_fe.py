@@ -28,6 +28,11 @@ def num(s):
     return float(re.sub(r"[^0-9.\-]", "", str(s)))
 
 
+def cents(s):
+    # parse a dollar string back to integer cents for exact comparison
+    return round(num(s) * 100)
+
+
 def screen(qa, description, fn):
     if qa.source_error:
         qa.unobservable(description, "the source could not be reached -- " + qa.source_error)
@@ -195,7 +200,7 @@ def entry_page_status(qa, status):
 def tb_debits_equal_credits(qa):
     def ev():
         t = qa.screen.get("tb")
-        return (bool(t) and num(t["debitsText"]) == num(t["creditsText"]), (t["debitsText"] + " vs " + t["creditsText"]) if t else "no page")
+        return (bool(t) and cents(t["debitsText"]) == cents(t["creditsText"]), (t["debitsText"] + " vs " + t["creditsText"]) if t else "no page")
     screen(qa, "trial balance debits == credits", ev)
 
 
@@ -213,7 +218,7 @@ def bs_identity(qa):
         b = qa.screen.get("bs")
         if not b:
             return (False, "no page")
-        return (num(b["assetsText"]) == num(b["liabilitiesText"]) + num(b["equityText"]) + num(b["netIncomeText"]), f"A {b['assetsText']} = L {b['liabilitiesText']} + E {b['equityText']} + NI {b['netIncomeText']}")
+        return (cents(b["assetsText"]) == cents(b["liabilitiesText"]) + cents(b["equityText"]) + cents(b["netIncomeText"]), f"A {b['assetsText']} = L {b['liabilitiesText']} + E {b['equityText']} + NI {b['netIncomeText']}")
     screen(qa, "balance sheet identity on screen", ev)
 
 
