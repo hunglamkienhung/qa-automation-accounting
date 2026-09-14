@@ -1,0 +1,25 @@
+[project]
+name = "accounting-qa"
+version = "1.0.0"
+description = "Accounting domain: a self-written mini-books double-entry service (accountants, admin, chart of accounts, journal entries, reversals, financial reports) plus Nager.Date's live holiday API; BE over the store's DB and REST, FE over the app surfaces"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+bdd_features_base_dir = "../features"
+addopts = "-q -p no:cacheprovider"
+filterwarnings = ["ignore:Unknown pytest.mark.case:pytest.PytestUnknownMarkWarning"]
+markers = [
+  "case_id(id): the immutable catalogue ID this scenario reports against",
+  "be: backend branch -- no browser",
+  "fe: frontend branch -- Playwright",
+  "db: reads the mini-books SQLite file directly",
+  "api: calls an HTTP API",
+  "books: target is the self-written mini-books service",
+  "journal: posting journal entries over HTTP",
+  "reports: the financial reports (trial balance, balance sheet, income statement, equation)",
+  "integrity: ledger-wide invariants and gapless numbering under concurrency",
+  "security: probes authorization boundaries (no/wrong/forged token, wrong role)",
+  "nager: target is the live date.nager.at holiday API",
+]
+testpaths = ["be", "fe"]
