@@ -29,19 +29,19 @@ Nothing here needs an account, a key, or a paid service. Clone it and it runs.
 | **mini-books** | read + write, real DB | A small double-entry accounting backend in `services/mini-books`: one SQLite file, Node standard library only, a REST API for the chart of accounts, journal entries, reversals and the trial balance, balance sheet and income statement, and small labelled HTML pages for Playwright. |
 | **date.nager.at** | read-only, live | A live, keyless public-holiday API. A past year's holiday list drives a business-day posting/settlement date; nobody here can tune it to pass. |
 
-**511 cases**, each with an immutable ID, run in **both** stacks and reconciled
+**1000 cases**, each with an immutable ID, run in **both** stacks and reconciled
 case-by-case. Every layer the service has is tested at that layer:
 
 | Layer | Target | Cases | Where |
 |---|---|---|---|
-| DB | mini-books SQLite, opened directly | 90 | `be/db` |
-| API | journal entries — balanced debits and credits, at least two lines, business-day dates, active accounts, one currency, idempotency | 124 | `be/api` |
-| API | financial reports — trial balance, balance sheet, income statement, balances by type | 117 | `be/api` |
-| API | ledger-wide integrity — the accounting equation, reversals, gapless numbering under concurrency | 46 | `be/api` |
+| DB | mini-books SQLite, opened directly | 190 | `be/db` |
+| API | journal entries — balanced debits and credits, at least two lines, business-day dates, active accounts, one currency, idempotency | 224 | `be/api` |
+| API | financial reports — trial balance, balance sheet, income statement, balances by type | 217 | `be/api` |
+| API | ledger-wide integrity — the accounting equation, reversals, gapless numbering under concurrency | 115 | `be/api` |
 | API | authorization boundaries (security) | 15 | `be/api` |
-| API | Nager.Date + the business-day settlement built on it | 82 | `be/api` |
+| API | Nager.Date + the business-day settlement built on it | 202 | `be/api` |
 | FE | mini-books HTML pages (Playwright) | 37 | `fe/ui` |
-| | **Total** | **511** | |
+| | **Total** | **1000** | |
 
 ## The laws it enforces
 

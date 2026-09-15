@@ -28,19 +28,19 @@ Không cần tài khoản, không cần key, không cần dịch vụ trả phí
 | **mini-books** | đọc + ghi, DB thật | Backend kế toán ghi sổ kép nhỏ trong `services/mini-books`: một file SQLite, chỉ dùng thư viện chuẩn của Node, REST API cho hệ thống tài khoản, bút toán nhật ký, đảo bút toán và bảng cân đối thử, bảng cân đối kế toán, báo cáo KQKD, cùng các trang HTML gắn nhãn cho Playwright. |
 | **date.nager.at** | chỉ đọc, live | API ngày lễ công, không cần key. Danh sách lễ một năm quá khứ dùng để tính ngày ghi sổ/thanh toán theo ngày làm việc; không ai chỉnh cho nó "pass" được. |
 
-**511 case**, mỗi case một ID bất biến, chạy trên **cả hai** stack và đối chiếu
+**1000 case**, mỗi case một ID bất biến, chạy trên **cả hai** stack và đối chiếu
 từng case. Mọi tầng dịch vụ có đều được kiểm ở đúng tầng đó:
 
 | Tầng | Đích | Case | Ở đâu |
 |---|---|---|---|
-| DB | SQLite mini-books, đọc trực tiếp | 90 | `be/db` |
-| API | bút toán nhật ký — Nợ = Có, ít nhất hai dòng, ngày làm việc, tài khoản active, một tiền tệ, idempotency | 124 | `be/api` |
-| API | báo cáo tài chính — cân đối thử, cân đối kế toán, KQKD, số dư theo loại | 117 | `be/api` |
-| API | toàn vẹn sổ cái — phương trình kế toán, đảo bút toán, đánh số liên tục dưới đồng thời | 46 | `be/api` |
+| DB | SQLite mini-books, đọc trực tiếp | 190 | `be/db` |
+| API | bút toán nhật ký — Nợ = Có, ít nhất hai dòng, ngày làm việc, tài khoản active, một tiền tệ, idempotency | 224 | `be/api` |
+| API | báo cáo tài chính — cân đối thử, cân đối kế toán, KQKD, số dư theo loại | 217 | `be/api` |
+| API | toàn vẹn sổ cái — phương trình kế toán, đảo bút toán, đánh số liên tục dưới đồng thời | 115 | `be/api` |
 | API | ranh giới phân quyền (security) | 15 | `be/api` |
-| API | Nager.Date + ngày làm việc dựng trên nó | 82 | `be/api` |
+| API | Nager.Date + ngày làm việc dựng trên nó | 202 | `be/api` |
 | FE | các trang app mini-books (Playwright) | 37 | `fe/ui` |
-| | **Tổng** | **511** | |
+| | **Tổng** | **1000** | |
 
 ## Các luật nó thực thi
 
